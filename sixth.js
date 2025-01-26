@@ -17,3 +17,9 @@ switch (grade) {
         console.log(`Invalid grade , wait for the proper resule`);
         break;
 }
+const mail = 'beast@gmail.com';
+let namel = mail.slice(0, mail.indexOf(`@`));
+let domain = mail.slice(mail.indexOf(`@`) + 1);
+console.log(`Name is ${namel} \nand \nDomain is ${domain} `);
+namel.slice(0, 1);
+console.log(namel);
